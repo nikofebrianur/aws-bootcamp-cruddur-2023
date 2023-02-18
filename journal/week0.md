@@ -58,4 +58,4 @@ aws organizations create-organizational-unit --parent-id PROD_OU_ID --name HR\ O
 aws organizations create-organizational-unit --parent-id PROD_OU_ID --name Finance\ OU
 ```
 There you go!
-![PoW Make OU with AWS-CLI]{https://github.com/nikofebrianur/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week-0/make%20aws%20ou.png}
+![PoW Make OU with AWS-CLI](https://github.com/nikofebrianur/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week-0/make%20aws%20ou.png)
