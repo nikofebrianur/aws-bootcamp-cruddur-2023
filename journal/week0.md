@@ -12,10 +12,11 @@ Add new user for cruddur tasks: cruddur-admin, I will use this for daily tasks a
 Add access keys for cruddur-admin: cruddur-daily-tasks
 ![Access keys for the new user](https://github.com/nikofebrianur/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week-0/access%20keys%20for%20cruddur%20admin.png)
 
-Install AWS CLI via WSL2
-Ref: https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+### Install AWS CLI via WSL2.
+I just follow the instruction for [AWS CLI Installation](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) (I hope it will run smoothly in WSL).
+First, I download the zip file for installation.
 
-I just follow the instruction for install AWS CLI in Linux (I hope it will run smoothly).
+
 Then, I configure CLI for cruddur-admin use access keys I generated before.
 ![pow confifure cli](https://github.com/nikofebrianur/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week-0/aws%20configure%20list.png)
 
