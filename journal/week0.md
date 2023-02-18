@@ -4,7 +4,7 @@
 ### USER CONFIGURATION TASKS
 
 Make MFA for Root user
-![Activate the MFA for Root]([journal/assets/week-0/root-mfa-active.png](https://github.com/nikofebrianur/aws-bootcamp-cruddur-2023/blob/79a5d55246e365d6f7a656d529e1d45b11dc4dd1/journal/assets/week-0/root%20mfa%20active.png))
+![Activate the MFA for Root]()
 
 Add new user for cruddur tasks: cruddur-admin, I will use this for daily tasks and not use Root for security.
 **i**
