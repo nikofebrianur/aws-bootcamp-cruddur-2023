@@ -4,7 +4,7 @@
 ### USER CONFIGURATION TASKS
 
 Make MFA for Root user
-**image**
+![Activate the MFA for Root](assets/week-0/root mfa active.png)
 
 Add new user for cruddur tasks: cruddur-admin, I will use this for daily tasks and not use Root for security.
 **i**
@@ -22,4 +22,4 @@ Then, I configure CLI for cruddur-admin use access keys I generated before.
 ### COST & BUDGETING TASKS
 This is my new AWS account so I make a budgeting alert for Zero-Spend Budget.
 
-And, then I try to make some new alert for Cruddur Bootcamp and set the alarm if exceed $10.
+And, then I try to make some new budgeting for Cruddur Bootcamp and set the alarm if exceeds $10.
