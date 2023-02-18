@@ -4,7 +4,7 @@
 ### USER CONFIGURATION TASKS
 
 Make MFA for Root user
-![Activate the MFA for Root](journal/assets/week-0/root mfa active.png)
+![Activate the MFA for Root](journal/assets/week-0/root-mfa-active.png)
 
 Add new user for cruddur tasks: cruddur-admin, I will use this for daily tasks and not use Root for security.
 **i**
