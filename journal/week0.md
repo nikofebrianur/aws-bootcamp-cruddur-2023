@@ -19,4 +19,7 @@ I just follow the instruction for install AWS CLI in Linux (I hope it will run s
 Then, I configure CLI for cruddur-admin use access keys I generated before.
 **i**
 
-### COST & BUDGET TASKS
+### COST & BUDGETING TASKS
+This is my new AWS account so I make a budgeting alert for Zero-Spend Budget.
+
+And, then I try to make some new alert for Cruddur Bootcamp and set the alarm if exceed $10.
