@@ -23,6 +23,9 @@ sudo ./aws/install
 ```
 
 Then, I configure CLI for cruddur-admin use access keys I generated before.
+```
+aws configure list
+```
 ![pow confifure cli](https://github.com/nikofebrianur/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week-0/aws%20configure%20list.png)
 
 ### COST & BUDGETING TASK
