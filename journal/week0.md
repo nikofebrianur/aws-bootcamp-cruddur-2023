@@ -52,5 +52,8 @@ Make Dev and Prod OU under Root OU.
 aws organizations create-organizational-unit --parent-id ROOT_OU_ID --name Dev\ OU
 aws organizations create-organizational-unit --parent-id ROOT_OU_ID --name Prod\ OU
 ```
-
-
+Then, make HR OU and Finance OU under Prod OU and use its ID.
+```
+aws organizations create-organizational-unit --parent-id PROD_OU_ID --name HR\ OU
+aws organizations create-organizational-unit --parent-id PROD_OU_ID --name Finance\ OU
+```
