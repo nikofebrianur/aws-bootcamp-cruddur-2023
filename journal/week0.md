@@ -1,6 +1,8 @@
 # Week 0 — Billing and Architecture
 ## Required Homework
 
+### USER CONFIGURATION TASKS
+
 Make MFA for Root user
 **image**
 
@@ -16,3 +18,5 @@ Ref: https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.ht
 I just follow the instruction for install AWS CLI in Linux (I hope it will run smoothly).
 Then, I configure CLI for cruddur-admin use access keys I generated before.
 **i**
+
+### COST & BUDGET TASKS
