@@ -2,7 +2,9 @@
 ## Required Homework
 
 I'm a big fan of terminal and I want to master the skill in this great bootcamp. So, I'll try to use terminal as much as I can to do the homework. <br>
-Of course, I'll do the task with the UI first to make me understand the whole new concept. 
+Of course, I'll do the task with the UI first to make me understand the whole new concept. <br>
+I found the --cli-auto-prompt is an awesome tool to know the command for make the resources. 
+GO GO GO RED SQUAD!!!
 
 ### USER CONFIGURATION TASK
 
@@ -35,3 +37,20 @@ aws configure list
 This is my new AWS account so I make a budgeting alert for Zero-Spend Budget.<br>
 And, then I try to make some new budgeting for Cruddur Bootcamp and set the alarm if exceeds $10.
 ![Make budgeting](https://github.com/nikofebrianur/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week-0/make%20budgets.png)
+
+### AWS ORGANIZATION
+In this task, I try the to find my Root OU id, so I can use it for make another OU within.
+```
+aws organizations list-roots
+```
+After, I know the ID then make another OU. They are: Dev OU, Prod OU,  HR OU, and Finance OU. First, I check that my Root OU is empty from another OU. 
+```
+aws organizations list-organizational-units-for-parent --parent-id ROOT_OU_ID
+```
+Make Dev and Prod OU under Root OU.
+```
+aws organizations create-organizational-unit --parent-id ROOT_OU_ID --name Dev\ OU
+aws organizations create-organizational-unit --parent-id ROOT_OU_ID --name Prod\ OU
+```
+
+
