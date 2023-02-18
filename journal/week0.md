@@ -39,8 +39,7 @@ And, then I try to make some new budgeting for Cruddur Bootcamp and set the alar
 ![Make budgeting](https://github.com/nikofebrianur/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week-0/make%20budgets.png)
 
 ### AWS ORGANIZATION
-In this task, I try the to find my Root OU id, so I can use it for make another OU within. 
-[AWS Organization CLI Ref](https://docs.aws.amazon.com/cli/latest/reference/organizations/index.html)
+In this task, I try the to find my Root OU id, so I can use it for make another OU within. I use this documentation: [AWS Organization CLI Ref](https://docs.aws.amazon.com/cli/latest/reference/organizations/index.html)
 ```
 aws organizations list-roots
 ```
