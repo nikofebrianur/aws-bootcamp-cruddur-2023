@@ -1,6 +1,9 @@
 # Week 0 — Billing and Architecture
 ## Required Homework
 
+I'm a big fan of terminal and I want to master the skill in this great bootcamp. So, I'll try to use terminal as much as I can to do the homework. <br>
+Of course, I'll do the task with the UI first to make me understand the whole new concept. 
+
 ### USER CONFIGURATION TASK
 
 Make MFA for Root user
