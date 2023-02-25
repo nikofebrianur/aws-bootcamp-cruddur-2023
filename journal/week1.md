@@ -32,6 +32,7 @@ Then, run the flask app
 ```
 python3 -m flask run --host=0.0.0.0 --port=4567
 ```
+![Run flask app in dev](https://github.com/nikofebrianur/aws-bootcamp-cruddur-2023/blob/week-1/journal/assets/week-1/success%20deploy%20flask%20app.png)
 
 Remember to unset the env
 ```
@@ -45,9 +46,11 @@ Change the directory one level above first
 cd ..
 docker build -t backend-flask ./backend_flask
 ```
+![Build Success](https://github.com/nikofebrianur/aws-bootcamp-cruddur-2023/blob/week-1/journal/assets/week-1/docker%20build%20flask%20app.png)
 
 ### Run the docker
 ```
 docker run --rm -p 4567:4567 -it -e FRONTEND_URL='*' -e BACKEND_URL='*' backend-flask
 ```
 You can check it run in /api/activites/home endpoint.
+![Success run the docker](https://github.com/nikofebrianur/aws-bootcamp-cruddur-2023/blob/week-1/journal/assets/week-1/success%20run%20the%20docker%20flask%20app.png)
