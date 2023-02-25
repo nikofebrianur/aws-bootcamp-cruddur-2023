@@ -26,6 +26,7 @@ First, export the environment
 ```
 export FRONTEND_URL="*"
 export BACKEND_URL="*"
+```
 
 Then, run the flask app
 ```
