@@ -44,7 +44,7 @@ unset BACKEND_URL
 Change the directory one level above first
 ```
 cd ..
-docker build -t backend-flask ./backend_flask
+docker build -t backend-flask ./backend-flask
 ```
 ![Build Success](https://github.com/nikofebrianur/aws-bootcamp-cruddur-2023/blob/week-1/journal/assets/week-1/docker%20build%20flask%20app.png)
 
