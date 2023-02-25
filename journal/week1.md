@@ -56,7 +56,7 @@ You can check it run in /api/activites/home endpoint.
 ![Success run the docker](https://github.com/nikofebrianur/aws-bootcamp-cruddur-2023/blob/week-1/journal/assets/week-1/success%20run%20the%20docker%20flask%20app.png)
 
 ## HOMEWORK CHALLENGE
-### Run docker local use WSL2
+### Run docker in local use WSL2
 First time use docker in WSL2. I have to search documentation and find the good one here [Docker Desktop WSL 2 backend on Windows](https://docs.docker.com/desktop/windows/wsl/)
 And then, just follow the steps above and it run on local I guess...
 ![run the app locally using docker](https://github.com/nikofebrianur/aws-bootcamp-cruddur-2023/blob/week-1/journal/assets/week-1/LOCAL%20running%20docker%20locally%20use%20wsl2.png)
