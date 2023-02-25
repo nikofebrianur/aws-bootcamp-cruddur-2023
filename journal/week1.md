@@ -60,3 +60,12 @@ You can check it run in /api/activites/home endpoint.
 First time use docker in WSL2. I have to search documentation and find the good one here [Docker Desktop WSL 2 backend on Windows](https://docs.docker.com/desktop/windows/wsl/)
 And then, just follow the steps above and it run on local I guess...
 ![run the app locally using docker](https://github.com/nikofebrianur/aws-bootcamp-cruddur-2023/blob/week-1/journal/assets/week-1/LOCAL%20running%20docker%20locally%20use%20wsl2.png)
+
+## Push image to Docker Hub
+I wanna use new tag for the image before push it.
+```
+docker tag backend-flask:latest 12903478/backend-flask:v1
+docker push 12903478/backend-flask:v1
+```
+![My images in local](https://github.com/nikofebrianur/aws-bootcamp-cruddur-2023/blob/week-1/journal/assets/week-1/docker%20images.png)
+![New pushed image in Docker Hub](https://github.com/nikofebrianur/aws-bootcamp-cruddur-2023/blob/week-1/journal/assets/week-1/docker%20hub.png)
