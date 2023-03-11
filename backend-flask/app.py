@@ -45,6 +45,10 @@ tracer = trace.get_tracer(__name__)
 
 app = Flask(__name__)
 
+# JWT Middleware
+SECRET_KEY = os..getenv('SECRET_KEY')
+app.config['SECRET_KEY'] = SECRET_KEY
+
 # X-RAY ----------
 XRayMiddleware(app, xray_recorder)
 
@@ -101,6 +105,11 @@ def data_create_message():
   return
 
 @app.route("/api/activities/home", methods=['GET'])
+@token_required
+
+def user(current_user):
+  return jsonify(current_user)
+
 def data_home():
   data = HomeActivities.run()
   return data, 200
@@ -125,7 +134,9 @@ def data_search():
 
 @app.route("/api/activities", methods=['POST','OPTIONS'])
 @cross_origin()
-def data_activities():
+@token_required
+
+def data_activities(current_user):
   user_handle  = 'andrewbrown'
   message = request.json['message']
   ttl = request.json['ttl']
