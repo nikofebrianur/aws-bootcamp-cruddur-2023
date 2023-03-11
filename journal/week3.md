@@ -11,14 +11,13 @@ pillow
 ```
 And, make new file for the middleware and then implement it in app.py
 
-###
-```
-npm i aws-amplify
-```
 I implement the JWT in /api/activities/home endpoint and I think it works because it shows error page :D
 ![error page yeay](https://github.com/nikofebrianur/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week-3/jwt%20in%20home.png)
 
-###
+### Implement Amplify and Cognito
+```
+npm i aws-amplify
+```
 import { Amplify } from 'aws-amplify';
 
 Amplify.configure({
