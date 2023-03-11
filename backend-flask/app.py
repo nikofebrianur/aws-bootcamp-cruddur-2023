@@ -46,7 +46,7 @@ tracer = trace.get_tracer(__name__)
 app = Flask(__name__)
 
 # JWT Middleware
-SECRET_KEY = os..getenv('SECRET_KEY')
+SECRET_KEY = os.getenv('SECRET_KEY')
 app.config['SECRET_KEY'] = SECRET_KEY
 
 # X-RAY ----------
