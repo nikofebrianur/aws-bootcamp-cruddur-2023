@@ -4,7 +4,7 @@
 ### Implement JWT Middleware in Flask App
 For this task, I found an [article](https://www.loginradius.com/blog/engineering/guest-post/securing-flask-api-with-jwt/) and try to follow the steps.
 
-Add nee library for the requirement.
+Add new library for the requirement.
 ```
 pyjwt 
 pillow
@@ -15,6 +15,8 @@ And, make new file for the middleware and then implement it in app.py
 ```
 npm i aws-amplify
 ```
+I implement the JWT in /api/activities/home endpoint and I think it works because it shows error page :D
+!(error page yeay)[https://github.com/nikofebrianur/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week-3/jwt%20in%20home.png]
 
 ###
 import { Amplify } from 'aws-amplify';
