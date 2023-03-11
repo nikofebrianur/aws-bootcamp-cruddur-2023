@@ -12,7 +12,7 @@ pillow
 And, make new file for the middleware and then implement it in app.py
 
 I implement the JWT in /api/activities/home endpoint and I think it works because it shows error page :D
-![error page yeay](https://github.com/nikofebrianur/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week-3/jwt%20in%20home.png)
+![error page yeay](https://github.com/nikofebrianur/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week-3/jwt%20in%20home%20endpoint.png)
 
 ### Implement Amplify and Cognito
 ```
