@@ -6,6 +6,31 @@ Connect to psql via the psql client cli tool
 psql -Upostgres --host localhost
 ```
 
+Create the database
+```
+CREATE database cruddur;
+```
+
+### Import Script
+Create a new SQL file called schema.sql and place it in backend-flask/db
+
+The command to import:
+```
+psql cruddur < db/schema.sql -h localhost -U postgres
+```
+
+### Add UUID Extension
+We are going to have Postgres generate out UUIDs. We'll need to use an extension called:
+```
+CREATE EXTENSION "uuid-ossp";
+CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
+```
+
+Run the script
+```
+psql -U postgres cruddur < backend-flask/db/schema.sql -h localhost
+```
+
 ## Create RDS Postgres with AWS CLI
 ```
 aws rds create-db-instance \
