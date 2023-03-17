@@ -10,3 +10,13 @@ opentelemetry-instrumentation-requests
 aws-xray-sdk
 pyjwt
 pillow
+
+watchtower
+
+blinker
+rollbar
+
+Flask-AWSCognito
+
+psycopg[binary]
+psycopg[pool]
