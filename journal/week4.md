@@ -1,4 +1,19 @@
 # Week 4 — Postgres and RDS
+## Configure docker-compose.yml
+Add this:
+```
+db:
+    image: postgres:13-alpine
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=password
+    ports:
+      - '5432:5432'
+    volumes: 
+      - db:/var/lib/postgresql/data
+```
+![success deploy](https://github.com/nikofebrianur/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week-4/all%20success%20docker.png)
 
 ## Postgres DB Configuration
 Connect to psql via the psql client cli tool
@@ -53,6 +68,8 @@ aws rds create-db-instance \
   --performance-insights-retention-period 7 \
   --no-deletion-protection
 ```
+![success create rds](https://github.com/nikofebrianur/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week-4/success%20deploy%20rds%20with%20cli.png)
+
 ## Connect to RDS Prod with Gitpod
 Get Gitpod IP
 ```
@@ -70,3 +87,4 @@ Let's connect it.
 ```
 psql $PROD_CONNECTION_URL
 ```
+![success deploy in prod](https://github.com/nikofebrianur/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week-4/success%20connect%20to%20prod%20pg.png)
