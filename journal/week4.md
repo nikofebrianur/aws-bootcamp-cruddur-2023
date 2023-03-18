@@ -47,6 +47,7 @@ psql -U postgres cruddur < backend-flask/db/schema.sql -h localhost
 ```
 
 ## Create RDS Postgres with AWS CLI
+Use this documentation: ![create-db-instance](https://docs.aws.amazon.com/cli/latest/reference/rds/create-db-instance.html)
 ```
 aws rds create-db-instance \
   --db-instance-identifier cruddur-db-instance \
