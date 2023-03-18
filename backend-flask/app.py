@@ -106,10 +106,9 @@ def data_create_message():
   return
 
 @app.route("/api/activities/home", methods=['GET'])
-@token_required
-
-def user(current_user):
-  return jsonify(current_user)
+# @token_required
+# def user(current_user):
+#   return jsonify(current_user)
 
 def data_home():
   data = HomeActivities.run()
