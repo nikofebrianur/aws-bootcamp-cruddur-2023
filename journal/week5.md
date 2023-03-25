@@ -17,10 +17,12 @@ dynamodb-local:
 ```
 
 Create bash script (/bin/ddb/schema-load) and run it.
+![](https://github.com/nikofebrianur/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week-5/success%20create%20dynamodb.png)
 
 ## List Table
 Use the documentation here: [dynamodb](https://docs.aws.amazon.com/cli/latest/reference/dynamodb/index.html)
 Create bash script (bin/ddb/list-tables)
+![](https://github.com/nikofebrianur/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week-5/success%20list%20dynamodb.png)
 
 ## Add seed data
 Create bash script for export dummy data /bin/ddb/seed
