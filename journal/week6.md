@@ -12,4 +12,6 @@ Sync the build to S3
 aws s3 sync build s3://BUCKET-NAME
 ```
 ![Success host static web in S3](https://github.com/nikofebrianur/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week-6/url%20link%20static%20web.png)
+
+Here the live React app shows:
 ![Live app](https://github.com/nikofebrianur/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week-6/success%20host%20notefy%20react%20app%20in%20s3.png)
