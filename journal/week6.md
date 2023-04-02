@@ -21,6 +21,7 @@ Ref: [CloudFront AWS CLI Docs](https://docs.aws.amazon.com/cli/latest/reference/
 
 This time, I use console to make the distribution in CloudFront.
 At first time, I use the website endpoint so the OAI doesn't show and all clear with this ref: [CloudFront OAI](https://www.stormit.cloud/blog/cloudfront-origin-access-identity/)
-[](https://github.com/nikofebrianur/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week-6/use%20cloudfront.png)
+[](https://github.com/nikofebrianur/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week-6/use%20cloudfront.png).
+
 And it is live with CloudFront URL:
 ![Live CloudFront](https://github.com/nikofebrianur/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week-6/cloudfront%20url.png)
