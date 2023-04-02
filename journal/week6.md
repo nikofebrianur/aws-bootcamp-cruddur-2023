@@ -25,3 +25,6 @@ At first time, I use the website endpoint so the OAI doesn't show and all clear 
 
 And it is live with CloudFront URL:
 ![Live CloudFront](https://github.com/nikofebrianur/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week-6/cloudfront%20url.png)
+
+Following the ECS video and reach to this point. I created the service for notefy frontend:
+![](https://github.com/nikofebrianur/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week-6/svc%20notefy.png)
