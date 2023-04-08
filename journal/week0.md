@@ -21,14 +21,14 @@ Add access keys for cruddur-admin: cruddur-daily-tasks
 I just follow the instruction for [AWS CLI Installation](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) (I hope it will run smoothly in WSL).<br>
 
 First, I download the zip file for installation. Unzip the file and intall the CLI.
-```
+```sh
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 unzip awscliv2.zip
 sudo ./aws/install
 ```
 
 Then, I configure CLI for cruddur-admin use access keys I generated before.
-```
+```sh
 aws configure list
 ```
 ![pow confifure cli](https://github.com/nikofebrianur/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week-0/aws%20configure%20list.png)
