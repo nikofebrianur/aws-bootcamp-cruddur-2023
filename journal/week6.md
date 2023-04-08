@@ -4,11 +4,11 @@
 I use my React note app here: https://github.com/nikofebrianur/notefy-v2.
 
 Run it via Gitpod and build it. Ref: [Deploy React app to S3 & Cloudfront](https://dev.to/karanpratapsingh/deploy-react-app-to-s3-cloudfront-1cao)
-```
+```sh
 npm run build
 ```
 Sync the build to S3
-```
+```sh
 aws s3 sync build s3://BUCKET-NAME
 ```
 ![Success host static web in S3](https://github.com/nikofebrianur/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week-6/url%20link%20static%20web.png)
