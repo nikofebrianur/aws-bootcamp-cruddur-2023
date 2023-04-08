@@ -46,14 +46,14 @@ Change the directory one level above first
 cd ..
 docker build -t backend-flask ./backend-flask
 ```
-![Build Success](https://github.com/nikofebrianur/aws-bootcamp-cruddur-2023/blob/week-1/journal/assets/week-1/docker%20build%20flask%20app.png)
+![Build Success](https://github.com/nikofebrianur/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week-1/docker%20build%20flask%20app.png)
 
 ### Run the docker
 ```
 docker run --rm -p 4567:4567 -it -e FRONTEND_URL='*' -e BACKEND_URL='*' backend-flask
 ```
 You can check it run in /api/activites/home endpoint.
-![Success run the docker](https://github.com/nikofebrianur/aws-bootcamp-cruddur-2023/blob/week-1/journal/assets/week-1/success%20run%20the%20docker%20flask%20app.png)
+![Success run the docker](https://github.com/nikofebrianur/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week-1/success%20run%20the%20docker%20flask%20app.png)
 
 ## HOMEWORK CHALLENGE
 ### Run docker in local use WSL2
