@@ -14,7 +14,7 @@ EXPOSE ${PORT}
 CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0", "--port=4567"]
 
 ### Install the requirements
-```
+```sh
 cd backend-flask
 pip3 install -r requirements.txt 
 ```
@@ -23,33 +23,33 @@ pip3 install -r requirements.txt
 (In backend-flask folder)
 
 First, export the environment
-```
+```sh
 export FRONTEND_URL="*"
 export BACKEND_URL="*"
 ```
 
 Then, run the flask app
-```
+```sh
 python3 -m flask run --host=0.0.0.0 --port=4567
 ```
 ![Run flask app in dev](https://github.com/nikofebrianur/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week-1/run%20docker%20at%20port%204567%20and%20unlock.png)
 
 Remember to unset the env
-```
+```sh
 unset FRONTEND_URL
 unset BACKEND_URL
 ```
 
 ### Build the docker
 Change the directory one level above first
-```
+```sh
 cd ..
 docker build -t backend-flask ./backend-flask
 ```
 ![Build Success](https://github.com/nikofebrianur/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week-1/docker%20build%20flask%20app.png)
 
 ### Run the docker
-```
+```sh
 docker run --rm -p 4567:4567 -it -e FRONTEND_URL='*' -e BACKEND_URL='*' backend-flask
 ```
 You can check it run in /api/activites/home endpoint.
@@ -62,7 +62,7 @@ And then, just follow the steps above and it run on local I guess...
 
 ## Push image to Docker Hub
 I wanna use new tag for the image before push it.
-```
+```sh
 docker tag backend-flask:latest 12903478/backend-flask:v1
 docker push 12903478/backend-flask:v1
 ```
