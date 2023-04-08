@@ -40,20 +40,20 @@ And, then I try to make some new budgeting for Cruddur Bootcamp and set the alar
 
 ### AWS ORGANIZATION
 In this task, I try the to find my Root OU id, so I can use it for make another OU within. I use this documentation: [AWS Organization CLI Ref](https://docs.aws.amazon.com/cli/latest/reference/organizations/index.html)
-```
+```sh
 aws organizations list-roots
 ```
 After, I know the ID then make another OU. They are: Dev OU, Prod OU,  HR OU, and Finance OU. First, I check that my Root OU is empty from another OU. 
-```
+```sh
 aws organizations list-organizational-units-for-parent --parent-id ROOT_OU_ID
 ```
 Make Dev and Prod OU under Root OU.
-```
+```sh
 aws organizations create-organizational-unit --parent-id ROOT_OU_ID --name Dev\ OU
 aws organizations create-organizational-unit --parent-id ROOT_OU_ID --name Prod\ OU
 ```
 Then, make HR OU and Finance OU under Prod OU and use its ID.
-```
+```sh
 aws organizations create-organizational-unit --parent-id PROD_OU_ID --name HR\ OU
 aws organizations create-organizational-unit --parent-id PROD_OU_ID --name Finance\ OU
 ```
