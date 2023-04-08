@@ -16,7 +16,7 @@ I implement the JWT in /api/activities/home endpoint and I think it works becaus
 
 ## Live Streaming 
 ### Implement Amplify and Cognito
-```
+```sh
 npm i aws-amplify
 ```
 import { Amplify } from 'aws-amplify';
