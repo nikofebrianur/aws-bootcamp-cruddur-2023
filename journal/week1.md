@@ -32,7 +32,7 @@ Then, run the flask app
 ```
 python3 -m flask run --host=0.0.0.0 --port=4567
 ```
-![Run flask app in dev](https://github.com/nikofebrianur/aws-bootcamp-cruddur-2023/blob/week-1/journal/assets/week-1/success%20deploy%20flask%20app.png)
+![Run flask app in dev](https://github.com/nikofebrianur/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week-1/run%20docker%20at%20port%204567%20and%20unlock.png)
 
 Remember to unset the env
 ```
