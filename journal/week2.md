@@ -39,15 +39,15 @@ xray-daemon:
 ```
 
 Export this code to app.py:
-
+```
 from aws_xray_sdk.core import xray_recorder
 from aws_xray_sdk.ext.flask.middleware import XRayMiddleware
-
+```
 Use dynamic naming for X-Ray URL:
-
+```
 xray_url = os.getenv("AWS_XRAY_URL")
 xray_recorder.configure(service='backend-flask', dynamic_naming=xray_url)
-
+```
 After the configuration done, you can run
 ```sh
 docker compose -f "docker.compose.yml" up -d --build
