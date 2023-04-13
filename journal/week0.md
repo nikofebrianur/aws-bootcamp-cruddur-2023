@@ -6,6 +6,9 @@ Of course, I'll do the task with the UI first to make me understand the whole ne
 I found the --cli-auto-prompt is an awesome tool to know the command for make the resources. 
 GO GO GO RED SQUAD!!!
 
+### CI/CD PIPELINE CHART
+![](https://github.com/nikofebrianur/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week-0/ci%20cd%20pipeline.png)
+
 ### USER CONFIGURATION TASK
 
 Make MFA for Root user
