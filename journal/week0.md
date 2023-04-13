@@ -7,7 +7,7 @@ I found the --cli-auto-prompt is an awesome tool to know the command for make th
 GO GO GO RED SQUAD!!!
 
 ### CI/CD PIPELINE CHART
-![](https://github.com/nikofebrianur/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week-0/ci%20cd%20pipeline.png)
+![](https://github.com/nikofebrianur/aws-bootcamp-cruddur-2023/blob/main/journal/assets/week-0/aws%20ci%20cd%20pipeline.png)
 
 ### USER CONFIGURATION TASK
 
